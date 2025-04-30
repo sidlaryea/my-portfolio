@@ -13,7 +13,7 @@ useEffect(() => {
         <div className="flex items-center justify-between h-16">
         <a href="home" className="flex items-center gap-2  font-mono text-xl font-bold text-white">
             {""}
-            <img src="/my-portfolio/public/images/logo.png" className="w-6 h-6" ></img>Sid<span className="text-blue-500">Consult</span>{""}
+            <img src="images/logo.png" className="w-6 h-6" ></img>Sid<span className="text-blue-500">Consult</span>{""}
             </a>
             <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen((prev) => !prev)}>
                 &#9776;
