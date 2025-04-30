@@ -3,7 +3,7 @@ export const Home = () => {
 
     return <section id="Home" className="min-h-screen flex items-center justify-center relative">
     <div className="text-center z-10 px-4">
-<div><img src="/my-portfolio/images/my_pic.png" className="rounded-full w-50 h-50 mx-auto" /> </div>
+<div><img src="my-portfolio/images/my_pic.png" className="rounded-full w-50 h-50 mx-auto" /> </div>
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-600 
      leading-right bg-clip-text text-transparent">
         Hi, I am Sidney Laryea</h1>
