@@ -53,8 +53,10 @@ return (
     shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
     <h3 className="text-xl font-bold mb-2">Inventory Management API</h3>
     <p className="text-gray-400 mb-4">
-        A web application that allows users to manage library operations, including book borrowing, 
-        returning, and inventory management. Built with .NET web API,React, Node.js, and Sql.
+    This API streamlines the tracking and management of inventory across products, categories, and locations. 
+    Built with .NET Web API, it enables real-time stock monitoring, supports CRUD operations for items and suppliers,
+     manages stock levels and reorder alerts, and provides secure, RESTful endpoints for seamless integration with front-end apps, 
+     ERP systems, or e-commerce platforms.
     </p>
         <div>
             {["React, Node.js", "SQL", ".NET"].map((tech, key) => (
@@ -76,8 +78,10 @@ return (
     shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
     <h3 className="text-xl font-bold mb-2">Time And Attendance Dashboard</h3>
     <p className="text-gray-400 mb-4">
-        A web application that allows users to manage library operations, including book borrowing, 
-        returning, and inventory management. Built with .NET web API,React, Node.js, and Sql.
+    This dashboard provides a clear, real-time view of employee work hours, attendance trends, and punctuality. 
+    It tracks clock-ins/outs, leaves, and absences, offering visual insights through charts and summaries.
+     Designed to support HR and management decisions,
+     it helps improve workforce productivity and ensures accurate payroll processing.
     </p>
         <div>
             {["React, Node.js", "SQL", ".NET"].map((tech, key) => (
