@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: #0a0a0a;  
+  color: #fcf8f8;
+
+/* ✅ These two lines hide scrollbar for Firefox, IE, and Edge */
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;     /* Firefox */
+}
+
+/* ✅ These apply to Chrome, Safari, Opera */
+::-webkit-scrollbar {
+display: none;
+}
+
+@layer utilities {
+  @keyframes blink{
+    0%, 100% {
+      opacity: 1;
+      
+    }
+    50% {
+      opacity:0;
+    }
+  }
+
+  .animate-blink {
+    animation: blink 0.8s step-end infinite;
+  }
+
+
+
+}

@@ -1,0 +1,7 @@
+Gmail ServiceID:service_3wm1xbh
+
+Gmail_API: Request had insufficient authentication scopes.
+
+public api:EsGLckjpuscVtZp4W
+
+template ID:template_1xris9c
