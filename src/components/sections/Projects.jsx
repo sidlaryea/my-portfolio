@@ -45,7 +45,7 @@ return (
         </div>
         
             <div className="flex justify-between items-center">    
-                <a href="https://github.com/sidlaryea" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project <span className="ml-1">&rarr;</span> </a>
+                <a href="https://sidlaryea.github.io/InvoiceAPI_LandingPage/" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project <span className="ml-1">&rarr;</span> </a>
             </div>
     </div>
 
@@ -84,7 +84,7 @@ return (
      it helps improve workforce productivity and ensures accurate payroll processing.
     </p>
         <div>
-            {["React, Node.js", "SQL", ".NET"].map((tech, key) => (
+            {["SQL Server Management Studio, Microsoft PowerBI"].map((tech, key) => (
                 <span key={key} className="bg-blue-500 text-white py-1 px-3 rounded-full text-sm font-medium mr-2 mb-2">
                     {tech}
                 </span>
